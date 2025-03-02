@@ -1,5 +1,75 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Section styling */
+
+#home {
+    background: url("../images/musical_key.png") no-repeat 50% 50%;
+    background-attachment: fixed;
+    -webkit-backgroud-size: cover ;
+    -moz-background-size: cover;
+    -o-background-size: cover; 
+    background-size: cover;
+    width: 100;
+    display: block;
+    height: auto;
+    padding-top: 350px;
+    padding-bottom: 500px;
+    color: #fff;
+}
+
+.container {
+    padding: 50px;
+    text-align: center;
+}
+
+
+.text-center {
+
+    text-align: center;
+}
+
+.head-main{
+
+color: red ;
+letter-spacing: 5pt;
+word-spacing: 21pt;
+font-size: 4.5em;
+text-align: left;
+line-height: 2;
+font-weight: 900;
+border: 5px double #fff;
+padding: 10px;
+
+}
+
+
+.head-sub-main {
+
+font-size: 18px;
+font-weight: 500;
+padding: 5px 20px 10px 20px;
+text-transform: uppercase;
+
+}
+
+.head-last {
+
+    font-size: 18px;
+    font-weight: 900;
+    padding: 5px 20px 20px 20px;
+    border: 1px dotted #fff;
+
+
+}
+
 /* Styling for the menu */
-/* Menu container */
+
 .menu-container {
     top: 0;
     left: 0;
@@ -8,7 +78,7 @@
     background-color: #184352;
 }
 
-/* Main menu */
+
 .menu {
     font: bold 12px/18px sans-serif;
     text-align: center;
@@ -44,29 +114,13 @@
 
 
 
-/* Section styling */
-.container {
-    padding: 50px;
-    text-align: center;
-}
-
-/* Background colors for sections */
-#home {
-    background-color: #f4f4f4;
-    padding: 100px 0;
-}
+/* Gallery container */
 
 #portfolio {
     background-color: #ddd;
     padding: 100px 0;
 }
 
-#contact {
-    background-color: #ccc;
-    padding: 100px 0;
-}
-
-* Gallery Styling */
 .photo-gallery {
     display: flex;
     flex-wrap: wrap;
@@ -88,16 +142,8 @@
 }
 
 
-
-/* General Styles */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
-
 /* Contact Section */
+
 #contact {
     background-color: #ffffff;
     padding: 40px 20px;
@@ -150,15 +196,10 @@ body {
 
 
 /* Footer */
-footer {
+#footer {
     background-color: #333;
     color: red;
     text-align: center;
     padding: 15px 0;
     margin-top: 30px;
-}
-
-footer p {
-    margin: 0;
-    font-weight: bold;
 }
